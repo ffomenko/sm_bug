@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
+source 'http://gems.therepairline.co.uk'
 
 gem 'rails', '3.0.9'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'state_machine', '1.0.2'
+gem 'state_machine_workflow', '~> 0.0.5'
 gem 'sqlite3'
+gem 'test-unit'
 
 # Use unicorn as the web server
 # gem 'unicorn'
